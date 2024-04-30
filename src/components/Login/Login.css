@@ -1,0 +1,92 @@
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-size: cover;
+}
+
+.login__container {
+  width: 300px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  background-color: #363d42;
+  color: #fff;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+.wrap-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login__container h1 {
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.login__container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login__container form h5 {
+  margin-bottom: 5px;
+}
+
+.abrev {
+  display: flex;
+  flex-direction: column;
+
+  gap: 2rem;
+}
+
+.login__container form input {
+  padding: 5px;
+  background-color: #fff;
+  color: #000;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  width: 95%;
+}
+
+.login__container button {
+  padding-top: 52px;
+  margin-top: 2px;
+  padding: 19px;
+
+  background: var(--planCard);
+  border: 1px solid;
+  border-color: #a88734 #9c7e31 #846a29;
+  cursor: pointer;
+  border-radius: 15px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.login__signInButton {
+  margin-top: 19px;
+}
+.login__container button:hover {
+  color: hsl(0, 0%, 90%);
+  opacity: 0.97;
+  transition: 0.1s;
+}
+
+.login__container a {
+  display: flex;
+  margin-top: 20px;
+  color: #000;
+  justify-content: center;
+  text-decoration: none;
+  /* font-weight: bold; */
+  cursor: pointer;
+  font-size: 15px;
+  color: #fff;
+}
+.login__container a:hover {
+  color: #f48915;
+}

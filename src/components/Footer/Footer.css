@@ -1,0 +1,47 @@
+.Footer-container {
+  position: relative;
+}
+.Footer > hr {
+  border: 1px solid var(--lightgray);
+}
+.Footer {
+  padding: 1rem 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+  height: 20rem;
+}
+.socials {
+  display: flex;
+  gap: 4rem;
+}
+.socials > img {
+  height: 2rem;
+  width: 2rem;
+  cursor: pointer;
+}
+.socials > img:hover {
+  opacity: 0.8;
+}
+.logo-f > img {
+  width: 10rem;
+  padding-top: 2rem;
+}
+.blur-f-1 {
+  width: 26rem;
+  height: 12rem;
+  bottom: 0;
+  right: 15%;
+  filter: blur(200px);
+  background: red;
+}
+
+.blur-f-2 {
+  width: 26rem;
+  height: 14rem;
+  bottom: 0;
+  left: 15%;
+  filter: blur(170px);
+}

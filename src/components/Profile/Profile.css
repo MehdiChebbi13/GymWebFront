@@ -1,0 +1,178 @@
+/* Profile.css */
+.profile-app {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.back {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 1rem;
+  right: 10rem;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  /*  border: 2px solid #fff; */
+  color: #fff;
+  font-size: 34px;
+  cursor: pointer;
+  box-shadow: 0px 10px 20px -10px rgba(0, 0, 0, 0.75);
+}
+.back:hover {
+  opacity: 0.7;
+}
+.profile-card {
+  width: 400px;
+  border-radius: 15px;
+  height: 72%;
+  bottom: 1rem;
+  background-color: #363d42;
+  box-shadow: 0px 10px 20px -10px rgba(0, 0, 0, 0.75);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+.profile-picture-cointaner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 20px;
+  padding-bottom: 25px;
+}
+
+.import {
+  display: flex;
+  justify-content: space-around;
+  /* align-items: center; */
+  margin-top: 19px;
+  border: 2px solid var(--orange);
+  padding: 0;
+  border-radius: 15px;
+  width: 100px;
+  cursor: pointer;
+}
+.input-file {
+  display: none;
+}
+.import:hover {
+  background: var(--planCard);
+  cursor: pointer;
+  opacity: 0.8;
+}
+.save:hover {
+  background: var(--planCard);
+
+  opacity: 0.8;
+}
+
+.file-label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0;
+  border-radius: 15px;
+  width: 150px;
+  height: 40px;
+  color: #fff;
+  border: none;
+}
+
+.profile-picture {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid black;
+  box-shadow: 0px 10px 20px -10px rgba(0, 0, 0, 0.75);
+}
+
+.profile-name {
+  font-size: 24px;
+  font-weight: bold;
+  background: var(--planCard);
+  width: 100%;
+  padding: 15px 0;
+  box-shadow: 0px 10px 20px -10px rgba(0, 0, 0, 0.75);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.save {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.3rem;
+  margin-top: 19px;
+  border: 2px solid var(--orange);
+  border-radius: 15px;
+  width: 100px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.profile-name:first-letter {
+  text-transform: uppercase;
+}
+
+.profile-bio {
+  font-size: 18px;
+  color: #fff;
+  text-align: center;
+  padding: 0 10px;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* justify-content: center; */
+  gap: 0.5rem;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: flex-start;
+  width: 90%;
+}
+.profile-bio button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 8px;
+  border-radius: 15px;
+  width: 100px;
+  font-weight: bold;
+  color: #fff;
+  border: none;
+}
+.None {
+  background: linear-gradient(30deg, #000000, #434343);
+  opacity: 0.8;
+}
+.Basic {
+  background: linear-gradient(30deg, #dce35b, #45b649);
+  opacity: 0.8;
+}
+.Premium {
+  background: linear-gradient(30deg, #ff8008, #ffc837);
+  opacity: 0.8;
+}
+.Pro {
+  background: linear-gradient(30deg, #ad5389, #3c1053);
+  opacity: 0.8;
+}

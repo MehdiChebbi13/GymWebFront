@@ -1,0 +1,128 @@
+/* SignUp.css */
+
+.signUp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.signUp__container {
+  width: 30%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  background-color: #363d42;
+  color: #fff;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.wrap-logo-signup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signUp__container h1 {
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.abrev {
+  display: flex;
+  flex-direction: column;
+}
+
+.input h5 {
+  margin-bottom: 5px;
+}
+
+.input input {
+  height: 30px;
+  margin-bottom: 10px;
+  background-color: white;
+  width: 98%;
+  border-radius: 10px;
+}
+.two-inputs-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.two-inputs-wrap .first-input-wrap {
+  display: flex;
+  flex-direction: column;
+  width: 48%;
+}
+.two-inputs-wrap .last-input-wrap {
+  display: flex;
+  flex-direction: column;
+  width: 48%;
+}
+
+.signInButton {
+  padding-top: 52px;
+  margin-top: 2px;
+  padding: 19px;
+
+  background: var(--planCard);
+  border: 1px solid;
+  border-color: #a88734 #9c7e31 #846a29;
+  cursor: pointer;
+  border-radius: 15px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 15px;
+}
+.signInButton:hover {
+  color: hsl(0, 0%, 90%);
+  opacity: 0.97;
+  transition: 0.1s;
+}
+
+a {
+  display: flex;
+  margin-top: 20px;
+  color: #000;
+  justify-content: center;
+  text-decoration: none;
+  /* font-weight: bold; */
+  cursor: pointer;
+  font-size: 15px;
+  color: #fff;
+}
+a:hover {
+  color: #f48915;
+}
+
+/* SignUp.css */
+
+.gender-inputs {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 10px 0;
+  gap: 2rem;
+}
+
+.gender-inputs input[type="radio"] {
+  margin-right: 5px;
+  width: 25px;
+  cursor: pointer;
+}
+
+.gender-inputs label {
+  margin-left: 20px;
+}
+
+.gender-wrap {
+  display: flex;
+  flex-direction: row;
+  width: 48%;
+  gap: 5rem;
+  align-items: center;
+}
+.gender-inputs label {
+  font-size: 1rem;
+}
